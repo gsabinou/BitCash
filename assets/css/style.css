@@ -99,9 +99,26 @@
 }
 
 main {
+    position: relative;
+    background: none;
+    overflow: hidden;
+}
+
+main::before {
+    content: "";
+    position: absolute;
+    inset: 0;
     background-image: url('/assets/images/bitcoin-background.jpg');
     background-size: cover;
     background-position: center;
+    filter: brightness(0.6);
+    z-index: 0;
+}
+
+/* garante que o conteúdo do main fique acima do pseudo-elemento */
+main > * {
+    position: relative;
+    z-index: 1;
 }
 
 body {
