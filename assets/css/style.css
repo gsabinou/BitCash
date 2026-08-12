@@ -1,0 +1,110 @@
+:root {
+    --brand-color: #DEB841;
+    --darkest-color: #37323E;
+    --dark-color: #6D6A75;
+    --mid-color: #A8A5B1;
+    --light-color: #DAD5E3;
+    --lightest-color: #FFFFFF;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.bg-brand-card {
+    background-color: var(--brand-color);
+    border-color: var(--darkest-color) !important;
+}
+.bg-brand {
+    background-color: var(--brand-color);
+    border-color: var(--brand-color) !important;
+}
+
+.bg-darkest {
+    background-color: var(--darkest-color);
+    border-color: var(--darkest-color) !important;
+}
+
+.bg-dark {
+    background-color: var(--dark-color);
+    border-color: var(--dark-color) !important;
+}
+
+.bg-mid {
+    background-color: var(--mid-color);
+    border-color: var(--mid-color) !important;
+}
+
+.bg-light {
+    background-color: var(--light-color);
+    border-color: var(--light-color) !important;
+}
+
+.bg-lightest {
+    background-color: var(--lightest-color);
+    border-color: var(--lightest-color) !important;
+}
+
+
+.roboto-normal {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+
+.roboto-mono-font {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.logo {
+    background-color: var(--darkest-color);
+    border-color: var(--darkest-color) !important; 
+    color: var(--brand-color);
+}
+
+.logo-main {
+    background-color: var(--darkest-color);
+    border-color: var(--darkest-color) !important; 
+    color: var(--brand-color);
+    width: fit-content;
+}
+
+
+.text-lightest {
+    color: var(--lightest-color);
+}
+
+.text-darkest {
+    color: var(--darkest-color);
+}
+.text-brand {
+    color: var(--brand-color);
+}
+
+.card-size {
+    height: 18rem;
+}
+
+.bottom-gap {
+    margin-bottom: 10rem;
+}
+
+main {
+    background-image: url('/assets/images/bitcoin-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    background-color: var(--darkest-color) !important;
+}
+
